@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant & Cafe</title>
+
+    <!--Favicon-->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/food.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!--Header section-->
+    <header class="header-wrap">
+      <!--header top-->
+      <div class="header-top">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="contact-item">
+                  <!--this is not a bootstrap class-->
+                  <i class="fa-regular fa-clock"></i>
+                  <p>Mon-Sun[8:00am - 10:00pm]</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <a href="tel:135688859">984-217-857</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-item justify-content-end">
+                <i class="fa-solid fa-money-bill"></i>
+                <p>Discount off <b>25%</b> only for <b>Burger items</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Navbar start-->
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container pr-0">
+          <!--padding 0 (pr-0)-->
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-toggle-on"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center mb-lg-0">
+              <!--margin start-->
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+                <!--#about used for sliding on a single handed page smoothly and use it as id too-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#delivery">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#download app">Our App</a>
+            </li>
+            <li>
+              <button class="main-btn style-1">
+                <!--no bootstrap is used , main-btn is customed class-->
+                Make Reservation
+                <i class="fa-solid fa-arrow-right-long ms-1"></i>
+              </button>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--section-1 top banner-->
+    <section id="home">
+      <div class="top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-md-8">
+              <h1>We Provide Expess Home Delivery</h1>
+              <h4>
+                In shakes item of 2024 we are offering 20% flat discount. Don't
+                miss our !!
+              </h4>
+              <button class="main-btn style-1 mt-4">
+                <!--style-1 is supportive class , mt-4 (margin top se 4 hoga)-->
+                <i class="fa-solid fa-basket-shopping pe-3"> Order Now</i> <!--padding end-->
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--mainjs-->
+    <script src="food.js"></script>
+  </body>
+</html>
