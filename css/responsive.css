@@ -35,8 +35,22 @@ for  small laptop screen */
     .navigation-wrap .navbar-expand-lg .navbar-nav .navbar-link{
         font-size:.875rem;
     }
+    /*sevice section */
+    .service-section .service-cards{
+        margin-top: 4.4286rem;
+    }
+    .service-section .card{
+        padding: 3.4375rem 0 0;
+        margin-bottom: 1.25rem;
+    }
+    .service-section .card img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
 }
 
+
+/*for tab screen*/
 @media(max-width:992px){
     /*custom css*/
     p,a{
@@ -65,10 +79,21 @@ for  small laptop screen */
 .top-banner{
     padding: 6.375rem 0 4.375rem;
 }
+
+/*About us section*/
+.about-section{
+    text-align: center;
+}
+.about-section span:after{
+    left:50%;
+    transform:translateX(-50%);
+}
 }
 
+
+/*for mobile screen*/
 @media (max-width:767px){
-    /*cistom css*/
+    /*custom css*/
     h1{
         font-size: 1.5625rem;
     }
@@ -92,5 +117,9 @@ for  small laptop screen */
 .wrapper{
     padding-top: 3.25rem;
     padding-bottom: 2.25rem;
+}
+/*service section*/
+.service-section .card{
+    margin-bottom: 2.5rem;
 }
 }
