@@ -274,7 +274,7 @@ color: var(--text-primary);
   margin-top: 6.4286rem;
 }
 .service-section .card{
-  padding: 5.3571rem 0.3571rem 0.7143rem;
+  padding: 5.3571rem 0 0.7143rem;
   border-radius: 0.3571;
   border: 0;
   -webkit-box-shadow: 0 0 1.0714rem rgba(0,0,0,0.1);
@@ -340,4 +340,109 @@ overflow: hidden;
 .features-section .card .price del{
   color: var(--text-gray);
   margin-left: 0.5rem;
+}
+.features-section .card:hover h3{
+  color: var(--text-secoundry);
+}
+.features-section .card:hover img{
+  -webkit-transform:scale(1.15) rotate(5deg);;
+  transform: scale(1.15) rotate(5deg);
+  
+}
+/*Delivery section*/
+.delivery-section{
+  width: 100%;
+  height: 100%;
+  background: url("../images/bg-4.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*Download app section*/
+.app-section{
+  width: 100%;
+  height: 100%;
+  background: url("../images/bg-5.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-section h2,
+.app-section p{
+  color: var(--text-white);
+}
+.app-section h4:hover{
+  color: var(--text-primary);
+}
+.download-app-btn img{
+  max-width:11.8571rem;
+  width: 100%;
+}
+
+/*Newsletter section*/
+.newsletter{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.newsletter span::after{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.newsletter .form-group{
+  position: relative;
+  box-shadow: 0 0 1.0714rem rgba(0,0,0,0.1);
+}
+.newsletter .form-group input{
+  width: 100%;
+  height: 4.2857rem;
+  border-radius: 0.3571rem;
+  background: var(--white-color);
+  color: var(--text-gray);
+padding: 1.4286rem 0.7143rem;
+border: none;
+}
+.newsletter .form-group input:focus{
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+
+.newsletter .form-group button{
+  position: absolute;
+  top:0;
+  right:0;
+  height: 100%;
+  border: none;
+  padding: 0.3571rem 1.4286rem;
+  border-radius: 0 0.3571rem 0;
+  background: var(--secoundry--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter .form-group button i{
+  color: var(--text-white);
+  font-size: 1.5714rem;
+  line-height: 0.7;
+}
+
+/*footer section*/
+.footer{
+  background: var(--black-color);
+}
+.footer .footer-link{
+  font-size: 1rem;
+  color: var(--text-white);
+  padding: 0 1.875rem;
+}
+.footer a{
+  font-size: 1.5rem;
+  color: var(--text-white);
+  padding: 0 1rem;
+}
+.footer p {
+  color: var(--text-white);
 }

@@ -88,6 +88,14 @@ for  small laptop screen */
     left:50%;
     transform:translateX(-50%);
 }
+/*features section*/
+.feature-section .card .price{
+    font-size: 1.125rem;
+}
+/*newsletter section*/
+.newsletter .form-group input{
+    height: 3.2857rem;
+}
 }
 
 
@@ -121,5 +129,22 @@ for  small laptop screen */
 /*service section*/
 .service-section .card{
     margin-bottom: 2.5rem;
+} 
+/*features section*/
+.feature-section .card .price{
+    font-size: 0.875rem;
+}
+/*download app section*/
+.download-app-btn img{
+    max-width: 9rem;
+    width:100%;
+}
+/*Footer section*/
+.footer .footer-link ,
+.footer a i {
+    padding: 0.3rem 0.7rem;
+}
+.footer a {
+    padding: 0 0.5rem;
 }
 }
